@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+@font-face {
+    font-family: 'vazir';
+    src: url('../fonts/Vazir.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'vazir', sans-serif;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.lalezar{
+    font-family: 'Lalezar';
+}
+.align-items-center{
+    align-items: center;
+}
+
+header{
+    background-color: rgb(119, 190, 234);
+}
+
+.navbar{
+    letter-spacing: 10px;
+    color: white;
+    padding: 30px;
+}
+.pad{
+    padding: 20px;
+}
+.title{
+    color: rgb(252, 254, 255);
+}
+.desc{
+    text-align: justify;
+    color: azure;
+    margin: 20px;
+}
+.start-btn{
+    all: unset;
+    border-radius: 5px;
+    border: 1px solid white;
+    padding: 10px;
+    color:white;
+    font-weight: bold;
+}
+.start-btn:hover{
+    color: rgb(119, 190, 234);
+    background-color: white;
+}
+
+.section-title{
+    text-align: center;
+    font-family: 'lalezar';
+    font-size: 30px;
+    padding: 10px;
+}
+.member-card{
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
+    overflow: hidden;
+    margin: 15px;
+    transition: all 0.3s;
+}
+.member-card:hover{
+    transform: scale(1.05);
+}
+
+.member-card-name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.member-card-job{
+
+    font-weight: bold;
+    color: rgb(54, 109, 111);
+}
+.member-card-desc{
+    text-align: justify;
+    padding: 10px;
+}
+
+footer{
+    background-color: rgba(3, 56, 90, 0.722);
+    padding: 30px 20px;
+    color: white;
+}
+footer .row{
+    justify-content: space-between;
+}
+
